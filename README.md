@@ -7,6 +7,6 @@
 The source code is provided in "code" folder.
 
 ## 3. Simulation video
-A simulation video of 4 vehicles using self-play training.
+The simulation video of 4 vehicles crossing a intersection using self-play training.
 
 <img src="Exp3_selfplay.gif" width = "60%" height = "60%"/>
