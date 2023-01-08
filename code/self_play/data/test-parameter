@@ -1,0 +1,1 @@
+Namespace(batch_size=2048, buffer_size=200000, round_size=1, max_iteration=100000, lr_actor=0.001, lr_critic=0.001, d_lim=10, phi_lim=1.04, u_lim=8, deltaT=0.05, gamma=0.98, tra_pow=3, mode='test', step_number=20, max_angle=0.15, max_acc=2, node_num=256, dis_range=5, time_headway=3, load_old_network='False', check_point=14000)

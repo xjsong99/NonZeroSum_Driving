@@ -1,0 +1,10 @@
+训练：
+$ conda activate python3
+$ python main-HDP.py --batch_size=256 --mode=train
+
+测试：
+$ conda activate python3
+
+$ python main-HDP.py --mode=test_single
+或
+$ python main-HDP.py --mode=test_double
