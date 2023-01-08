@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 import torch
-import math
 import random
 import pandas as pd
 from PIL import Image
