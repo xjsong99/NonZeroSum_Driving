@@ -9,4 +9,4 @@ The source code is provided in "code" folder.
 ## 3. Simulation video
 A simulation video of 4 vehicles using self-play training.
 
-<img src="Exp3_selfplay.gif" width = "30%" height = "30%"/>
+<img src="Exp3_selfplay.gif" width = "60%" height = "60%"/>
