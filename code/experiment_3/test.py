@@ -181,6 +181,13 @@ class Test:
             # sns.set(style="darkgrid", font_scale=1)
             # plt.xlim([-40, 40])
             # plt.ylim([-40, 40])
+            # plot reference
+            tmp_x = [float(i[0, 0]) for i in self.veh[0].tra_point]
+            tmp_y = [float(i[1, 0]) for i in self.veh[0].tra_point]
+            plt.plot(tmp_x, tmp_y, linestyle='dashed', linewidth=1, color="green", label='reference')
+            tmp_x = [float(i[0, 0]) for i in self.veh[1].tra_point]
+            tmp_y = [float(i[1, 0]) for i in self.veh[1].tra_point]
+            plt.plot(tmp_x, tmp_y, linestyle='dashed', linewidth=1, color="green")
             for i in range(4):
                 plt.plot(X_his[i][:t], Y_his[i][:t], c=color_set[i], label='vehicle %d'%i)
                 if i == 0:
