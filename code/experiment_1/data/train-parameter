@@ -1,0 +1,5 @@
+Namespace(agent_size=10, batch_size=2048, buffer_size=200000, check_point=-1, d_lim=15, deltaT=0.05, dis_range=5, gamma=0.98, load_old_network='False', lr_actor=0.001, lr_critic=0.001, max_angle=0.15, max_iteration=20000, mode='train', node_num=128, phi_lim=1.4, step_number=20, tra_pow=3, v_x=5.0)
+
+
+self.a1, self.a2, self.a3 = 1.0 / (self.args.d_lim ** 2), 0.08 / (self.args.phi_lim ** 2), 0.08
+        self.a4 = 10.0 / (self.args.dis_range ** 2)
